@@ -426,7 +426,7 @@
                             },
                             {
                                 "_key": "html",
-                                "_value": "<mat-drawer-container class=\"example-container\">\r\n  <mat-drawer class =\"mat-drawer-side\" mode=\"side\" opened>\r\n    <ul class=\"menu\" style=\"list-style-type: none;\">\r\n      <li><a routerLink=\"searchClaim\"><i class=\"material-icons\" style=\"margin:5px\">search</i>Search</a></li>\r\n      <li><a routerLink=\"claimDetails\"><i class=\"material-icons\" style=\"margin:5px\">email</i>Inbox</a></li>\r\n      <li><a><i class=\"material-icons\" style=\"margin:5px\">attach_money</i>Transaction</a></li>\r\n    </ul>\r\n  </mat-drawer>\r\n  <!-- <mat-drawer-content>Main content</mat-drawer-content> -->\r\n</mat-drawer-container>\r\n",
+                                "_value": "<mat-drawer-container class=\"example-container\">\r\n  <mat-drawer class =\"mat-drawer-side\" mode=\"side\" opened>\r\n    <ul class=\"menu\" style=\"list-style-type: none;\">\r\n      <li><a routerLink=\"searchClaim\"><i class=\"material-icons\" style=\"margin:5px\">search</i></a></li>\r\n      <li><a routerLink=\"claimDetails\"><i class=\"material-icons\" style=\"margin:5px\">email</i></a></li>\r\n      <li><a><i class=\"material-icons\" style=\"margin:5px\">attach_money</i></a></li>\r\n    </ul>\r\n  </mat-drawer>\r\n  <!-- <mat-drawer-content>Main content</mat-drawer-content> -->\r\n</mat-drawer-container>\r\n",
                                 "_type": "a",
                                 "_attrDef": "p"
                             }
