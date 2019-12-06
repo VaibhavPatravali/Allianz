@@ -1,0 +1,13 @@
+{
+    "appPageId": "6eb488ef-c2d1-f54d-d4f6-8335f3f08a53",
+    "appPageName": "searchClaim",
+    "componentName": "searchclaimComponent",
+    "selectorName": "bh-searchclaim",
+    "htmlFileName": "searchclaim.template.html",
+    "tsFileName": "searchclaim.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

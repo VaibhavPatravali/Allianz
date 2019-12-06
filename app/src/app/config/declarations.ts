@@ -14,6 +14,18 @@ window['neutrinos'] = {
 }
 
 //CORE_REFERENCE_IMPORTS
+//CORE_REFERENCE_IMPORT-claimdetailsgridsComponent
+import { claimdetailsgridsComponent } from '../components/claimdetailsgridsComponent/claimdetailsgrids.component';
+//CORE_REFERENCE_IMPORT-searchclaimComponent
+import { searchclaimComponent } from '../components/searchclaimComponent/searchclaim.component';
+//CORE_REFERENCE_IMPORT-portalComponent
+import { portalComponent } from '../components/portalComponent/portal.component';
+//CORE_REFERENCE_IMPORT-sidenavComponent
+import { sidenavComponent } from '../components/sidenavComponent/sidenav.component';
+//CORE_REFERENCE_IMPORT-headerComponent
+import { headerComponent } from '../components/headerComponent/header.component';
+//CORE_REFERENCE_IMPORT-loginComponent
+import { loginComponent } from '../components/loginComponent/login.component';
 
 /**
  * Reads datasource object and injects the datasource object into window object
@@ -49,6 +61,18 @@ export const appDeclarations = [
   NMapComponent,
   ArtImgSrcDirective,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-claimdetailsgridsComponent
+claimdetailsgridsComponent,
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-searchclaimComponent
+searchclaimComponent,
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-portalComponent
+portalComponent,
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-sidenavComponent
+sidenavComponent,
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-headerComponent
+headerComponent,
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-loginComponent
+loginComponent,
 
 ];
 
@@ -75,5 +99,6 @@ export const appProviders = [
 */
 
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_START
-export const appRoutes = [{ path: '', redirectTo: '/', pathMatch: 'full' }, { path: '**', component: PageNotFoundComponent }];
+export const appRoutes = [{path: 'login', component: loginComponent},{path: 'dashboard', component: portalComponent,
+children: [{path: 'searchClaim', component: searchclaimComponent},{path: 'claimDetails', component: claimdetailsgridsComponent}]},{path: '', redirectTo: 'login', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_END

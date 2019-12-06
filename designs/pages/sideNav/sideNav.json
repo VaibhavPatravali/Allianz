@@ -1,0 +1,13 @@
+{
+    "appPageId": "05560af1-7771-bb28-492d-832ba88fd5a2",
+    "appPageName": "sideNav",
+    "componentName": "sidenavComponent",
+    "selectorName": "bh-sidenav",
+    "htmlFileName": "sidenav.template.html",
+    "tsFileName": "sidenav.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

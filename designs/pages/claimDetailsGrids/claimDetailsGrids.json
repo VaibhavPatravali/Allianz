@@ -1,0 +1,13 @@
+{
+    "appPageId": "a1e4e998-8248-99cf-0c1e-b95fd34d419a",
+    "appPageName": "claimDetailsGrids",
+    "componentName": "claimdetailsgridsComponent",
+    "selectorName": "bh-claimdetailsgrids",
+    "htmlFileName": "claimdetailsgrids.template.html",
+    "tsFileName": "claimdetailsgrids.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

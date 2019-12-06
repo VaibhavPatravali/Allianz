@@ -1,0 +1,29 @@
+<div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+  <bh-header></bh-header>
+  <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+    <h2 style="font-size:30px;color:rgb(255,153,0);margin-top:3.5em;">
+      Getting In Touch With Us Is Easy</h2>
+    <mat-card style="width:350px;box-shadow:2px 2px 15px grey;">
+      <mat-card-content>
+        <div fxLayout="column wrap" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false"><img imgSrc="Web/partner.jpg"></div>
+        <div fxLayout="column wrap" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+          <div fxLayout="column wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+            <mat-form-field color="primary" class="icon" [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;">
+              <input matInput required>
+              <mat-label>Username</mat-label>
+              <mat-icon matSuffix>person</mat-icon>
+            </mat-form-field>
+          </div>
+          <div fxLayout="column wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+            <mat-form-field color="primary" class="icon" [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;">
+              <input matInput type="password" required>
+              <mat-label>Password</mat-label>
+              <mat-icon matSuffix>lock</mat-icon>
+            </mat-form-field>
+          </div>
+          <div fxLayout="column wrap" style="width:100%;" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false"><button mat-raised-button class="btn">Submit</button></div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

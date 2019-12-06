@@ -1,0 +1,13 @@
+{
+    "appPageId": "61f4f5e5-eadc-7416-9035-62a19b378a2c",
+    "appPageName": "header",
+    "componentName": "headerComponent",
+    "selectorName": "bh-header",
+    "htmlFileName": "header.template.html",
+    "tsFileName": "header.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

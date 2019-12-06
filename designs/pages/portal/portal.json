@@ -1,0 +1,13 @@
+{
+    "appPageId": "638de968-9ef1-3c58-57fe-4dc9cb568d5f",
+    "appPageName": "portal",
+    "componentName": "portalComponent",
+    "selectorName": "bh-portal",
+    "htmlFileName": "portal.template.html",
+    "tsFileName": "portal.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

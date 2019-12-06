@@ -1,0 +1,22 @@
+<div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+  <bh-header></bh-header>
+  <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+    <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+      <div>
+        <mat-drawer-container class="example-container">
+          <mat-drawer class="mat-drawer-side" mode="side" opened>
+            <ul class="menu" style="list-style-type: none;">
+              <li><a routerLink="searchClaim"><i class="material-icons" style="margin:5px">search</i>Search</a></li>
+              <li><a routerLink="claimDetails"><i class="material-icons" style="margin:5px">email</i>Inbox</a></li>
+              <li><a><i class="material-icons" style="margin:5px">attach_money</i>Transaction</a></li>
+            </ul>
+          </mat-drawer>
+          <!-- <mat-drawer-content>Main content</mat-drawer-content> -->
+        </mat-drawer-container>
+      </div>
+    </div>
+    <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+{
+    "84ac0c91-7e72-093e-9a95-8b41d09bbc98": {
+        "appPageName": "login",
+        "componentName": "loginComponent",
+        "isEntry": false
+    },
+    "61f4f5e5-eadc-7416-9035-62a19b378a2c": {
+        "appPageName": "header",
+        "componentName": "headerComponent",
+        "isEntry": false
+    },
+    "05560af1-7771-bb28-492d-832ba88fd5a2": {
+        "appPageName": "sideNav",
+        "componentName": "sidenavComponent",
+        "isEntry": false
+    },
+    "638de968-9ef1-3c58-57fe-4dc9cb568d5f": {
+        "appPageName": "portal",
+        "componentName": "portalComponent",
+        "isEntry": false
+    },
+    "6eb488ef-c2d1-f54d-d4f6-8335f3f08a53": {
+        "appPageName": "searchClaim",
+        "componentName": "searchclaimComponent",
+        "isEntry": false
+    },
+    "a1e4e998-8248-99cf-0c1e-b95fd34d419a": {
+        "appPageName": "claimDetailsGrids",
+        "componentName": "claimdetailsgridsComponent",
+        "isEntry": false
+    }
+}

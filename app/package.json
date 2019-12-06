@@ -18,9 +18,9 @@
     "ios-build": "npm run build-mobile && cordova build ios",
     "sw": "sw-precache --root=dist --config=sw-precache-config.js",
     "build-web-gcp": "gulp && ng build --base-href /web --configuration=prod --aot --build-optimizer && gulp build-web"
-    },
-    "private": true,
-    "dependencies": {
+  },
+  "private": true,
+  "dependencies": {
     "@agm/core": "1.0.0-beta.7",
     "@angular-devkit/build-angular": "0.802.0",
     "@angular/common": "8.2.0",

@@ -2,3 +2,41 @@
 
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 @import "nDefaults.scss";
+
+body{
+    font-family:arial;
+}
+.icon{
+    color:#0071BB;
+}
+.btn{
+    background: #0071BB;
+    color:white;
+    border-radius: 1em;
+    width: 100% !important;
+}
+.example-container {
+ 
+  height: 670px;
+  
+ 
+}
+.mat-drawer-side{
+    background: #0071BB;
+    width:212px;
+    text-align: left;
+    color:white;
+    font-weight: bold;
+    padding-top:20px;
+}
+.menu{
+   list-style-type: none;
+}
+.menu li {
+    margin-top:25px;
+    list-style-type: none;
+}
+.menu li a{
+    color:white;
+    text-decoration: none;
+}

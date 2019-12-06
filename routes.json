@@ -1,9 +1,28 @@
 {
     "routes": [
         {
+            "path": "login",
+            "component": "loginComponent"
+        },
+        {
+            "path": "dashboard",
+            "component": "portalComponent",
+            "children": [
+                {
+                    "path": "searchClaim",
+                    "component": "searchclaimComponent"
+                },
+                {
+                    "path": "claimDetails",
+                    "component": "claimdetailsgridsComponent"
+                }
+            ]
+        },
+        {
             "path": "''",
-            "redirectTo": "",
-            "pathMatch": "full"
+            "redirectTo": "login",
+            "pathMatch": "full",
+            "default": true
         },
         {
             "path": "**",
