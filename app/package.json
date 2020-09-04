@@ -45,7 +45,7 @@
     "ng2-charts": "1.6.0",
     "chart.js": "2.8.0",
     "firebase": "6.3.4",
-    "node-sass": "4.12.0",
+    "node-sass": "4.14.1",
     "signature_pad": "2.3.2",
     "neutrinos-module": "0.0.48",
     "localforage": "1.7.3"
